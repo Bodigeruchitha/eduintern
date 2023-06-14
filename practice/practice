@@ -1,0 +1,330 @@
+iuuN5AV95AxssxE9
+ruchi-bodige_04
+
+mongodb+srv://ruchi-bodige_04:<iuuN5AV95AxssxE9>@cluster0.yjn88a3.mongodb.net/    // mongodbfor vscode
+
+mongodb+srv://ruchi-bodige_04:iuuN5AV95AxssxE9@cluster0.yjn88a3.mongodb.net/?retryWrites=true&w=majority    //driver
+
+
+if(a%3==0){
+console.log(`${a} is even`)
+}
+else{
+    console.log(`${a} is odd`)
+}
+var a=10
+if(a%3==0){
+    console.log(`${a} is even`)
+}else if(a%2==0){
+    console.log(`${a} is  divisible by 2`)
+}
+else{
+    console.log(`${a} is odd`)
+}
+var a=509
+a>=300? "a is greater": "a is lesser number"
+
+
+// function//
+var a= 10;
+var b= 12;
+ function add(a,b)
+ {
+    return a+b
+ }
+ function add(fav, colour){
+    let out=`my   ${fav}  colour is  ${colour}`
+    return out 
+ }
+annswer
+add("fav","red")
+'my   fav  colour is  red'
+
+//es6 arrow
+let add=( a,b) => {return a+b}
+
+let sub = (a,b) => {return a-b}
+sub(8,1)
+7
+sub(1,8)
+
+//loop
+for(i=2;i<6;i++)
+{
+    console.log(i)
+}  o/p 23456
+
+if we does not give the incrent it execute multiple times 
+var i=10;
+while(i<=20){
+    console.log(i);
+    i++;
+}
+var i=10;
+do{
+    console.log(i);
+}while(i<2)
+var i=10;
+do{
+    console.log(i);
+}while(i<2)
+///mapfilter 
+a.map((data)=>{return data*3})
+anwwer  (8) [12, 6, 6, 9, 12, 3, 15, 18]
+
+var a=[1,2,3,4,5,6,7]
+a.filter((data)=>{return a})
+var a=[1,2,3,4,5,6,7]
+a.filter((data)=>{return a.push(data*2)})
+a
+ var a=[0,1,2]
+ a.map((data)=>{return data*2})
+//object/
+    var moviename="jab we met"
+    var movieind="tollywood"
+    var moviehero="mahesh" 
+    var moviename1="jab we met"
+    var movieind1="tollywood"
+    var moviehero1="mahesh"  
+
+var movie ={
+    name:"jab we met, hello",
+    Ind:"tollywood", 
+    hero:"mahesh" 
+
+}   
+with obect we can delete  delete movie.In
+            add movie.type="romantic"
+///json//  it is the array of object 
+var movie =[
+    {
+    "name":"jab we met",
+    "Ind":"tollywood", 
+    "hero":"mahesh" 
+    },
+    {
+    "name":"kal ho na ho",
+    "Ind":"Bollywood", 
+    "hero":"salman" 
+    }
+]
+var movies = [
+    {
+        "name":"Jab We Met",
+        "rating":4.7,
+        "ind":"Bollywood"
+    },
+    {
+        "name":"Avengers",
+        "rating":4.3,
+        "ind":"Hollywood"
+    }
+]
+movies.map((data)=>{return data.name})
+movie.map((data)=> {return data.name})
+var movie ={
+    name:"jab we met, hello",
+    Ind:"tollywood", 
+    hero:"mahesh" 
+movies=[1,2,2]
+}  
+ for (i=0;i<movies.length;i++)
+ {
+ console.log(movies[i].name)
+}
+// for in  is particular for objects 
+// for of is particular  for array 
+var movie ={
+    name:"jab we met, hello",
+    Ind:"tollywood", 
+    hero:"mahesh" 
+
+}   
+for (hi in movie)
+{
+    console.log(movie[hi])
+}   
+
+for(key in movie){
+    console.log(movie[key])
+}
+//clousuers 
+var a =10
+function add{
+    var b=20
+    retur a+b
+}
+
+// {
+//     "store_id" : "5",
+//     "location_name" :"Palika Bazar,Connaught Place , New Delhi",
+//     "state_id" : 4,
+//     "state_name" :"Delhi",
+//     "country"   :"India",
+//     "opening_hours": {
+//       "monday": "6:00 AM - 8:00 PM",
+//       "tuesday": "6:00 AM - 8:00 PM",
+//       "wednesday": "6:00 AM - 8:00 PM",
+//       "thursday": "6:00 AM - 8:00 PM",
+//       "friday": "6:00 AM - 8:00 PM",
+//       "saturday": "7:00 AM - 9:00 PM",
+//       "sunday": "7:00 AM - 9:00 PM"
+//     },
+//     "menu": [
+//       {
+//         "items": [
+//           {
+//             "meal_type": "Food",
+//             "menu_id" :5,
+//             "menu_name" : "Choclate Croissants",
+//             "price" : " 150"
+//           },
+//           {
+//             "meal_type": "Food",
+//             "menu_id" : 5,
+//             "menu_name" : "Everything Bagel",
+//             "price" : "150"
+//         }
+//         ]
+//       }
+//     ]
+// },
+// {
+//     "store_id" : "6",
+//     "location_name" :"Hastsal , New Delhi",
+//     "state_id" : 4,
+//     "state_name" :"Delhi",
+//     "country"   :"India",
+//     "opening_hours": {
+//       "monday": "6:00 AM - 8:00 PM",
+//       "tuesday": "6:00 AM - 8:00 PM",
+//       "wednesday": "6:00 AM - 8:00 PM",
+//       "thursday": "6:00 AM - 8:00 PM",
+//       "friday": "6:00 AM - 8:00 PM",
+//       "saturday": "7:00 AM - 9:00 PM",
+//       "sunday": "7:00 AM - 9:00 PM"
+//     },
+//     "menu": [
+//       {
+//         "items": [
+//           {
+//             "meal_type": "Drinks",
+//             "menu_id" : 1,
+//             "menu_name" : "Coffee Latte",
+//             "price" : " 250"
+//           },
+//           {
+//             "meal_type": "Drinks",
+//             "menu_id" : 1,
+//             "menu_name" : "Cappucciano",
+//             "price" : "250"
+//         }
+//         ]
+//       }
+//     ]
+// },
+// {
+//     "store_id" : "7",
+//     "location_name" :"Nevpada, Vile Parle East, Mumbai",
+//     "state_id" : 5,
+//     "state_name" :"Karnataka",
+//     "country"   :"India",
+//     "opening_hours": {
+//       "monday": "6:00 AM - 8:00 PM",
+//       "tuesday": "6:00 AM - 8:00 PM",
+//       "wednesday": "6:00 AM - 8:00 PM",
+//       "thursday": "6:00 AM - 8:00 PM",
+//       "friday": "6:00 AM - 8:00 PM",
+//       "saturday": "7:00 AM - 9:00 PM",
+//       "sunday": "7:00 AM - 9:00 PM"
+//     },
+//     "menu": [
+//       {
+//         "items": [
+//           {
+//             "meal_type": "Drinks",
+//             "menu_id" : 1,
+//             "menu_name" : "Coffee Latte",
+//             "price" : " 250"
+//           },
+//           {
+//             "meal_type": "Drinks",
+//             "menu_id" : 1,
+//             "menu_name" : "Cappucciano",
+//             "price" : "250"
+//         }
+//         ]
+//       }
+//     ]
+// },
+// {
+   
+//     "store_id" : "8",
+//     "location_name" :"Navy Mumbai",
+//     "state_id" : 5,
+//     "state_name" :"Karnataka",
+//     "country"   :"India",
+//     "opening_hours": {
+//       "monday": "6:00 AM - 8:00 PM",
+//       "tuesday": "6:00 AM - 8:00 PM",
+//       "wednesday": "6:00 AM - 8:00 PM",
+//       "thursday": "6:00 AM - 8:00 PM",
+//       "friday": "6:00 AM - 8:00 PM",
+//       "saturday": "7:00 AM - 9:00 PM",
+//       "sunday": "7:00 AM - 9:00 PM"
+//     },
+//     "menu": [
+//       {
+//         "items": [
+//           {
+//             "meal_type": "Drinks",
+//             "menu_id" : 1,
+//             "menu_name" : "Coffee Latte",
+//             "price" : " 250"
+//           },
+//           {
+//             "meal_type": "Drinks",
+//             "menu_id" : 1,
+//             "menu_name" : "Cappucciano",
+//             "price" : "250"
+//         }
+//         ]
+//       }
+//     ]
+// },
+// {
+//     "store_id" : "9",
+//     "location_name" :"DB Marg, Miramur, Panaji",
+//     "state_id" : 6,
+//     "state_name" :"Goa",
+//     "country"   :"India",
+//     "opening_hours": {
+//       "monday": "6:00 AM - 8:00 PM",
+//       "tuesday": "6:00 AM - 8:00 PM",
+//       "wednesday": "6:00 AM - 8:00 PM",
+//       "thursday": "6:00 AM - 8:00 PM",
+//       "friday": "6:00 AM - 8:00 PM",
+//       "saturday": "7:00 AM - 9:00 PM",
+//       "sunday": "7:00 AM - 9:00 PM"
+//     },
+//     "menu": [
+//       {
+//         "items": [
+//           {
+//             "meal_type": "Drinks",
+//             "menu_id" : 1,
+//             "menu_name" : "Coffee Latte",
+//             "price" : " 250"
+//           },
+//           {
+//             "meal_type": "Drinks",
+//             "menu_id" : 1,
+//             "menu_name" : "Cappucciano",
+//             "price" : "250"
+//         }
+//         ]
+//       }
+//     ]
+// },
+      
+  

@@ -1,0 +1,46 @@
+body{
+
+    padding:0 3%;
+}
+.navbar{
+    float: left;
+} 
+header{
+    border: 2px red solid;
+    height: 100px;
+}
+/** profile**/
+
+.profile img{
+    width:100%;
+
+    /* object-fit: cover;   */
+}
+.text{
+    font-size:20px;
+    color: red;
+}
+.outercontainer{
+    border:2px red solid;
+    height:500px;
+    display:flex;
+}
+.filter{
+    width:25%;
+    border:2px red solid;
+    height:500px;
+}
+.space{
+    line-height: 2;
+}
+.filter{
+    font-size: 25px;
+}
+.restcontent{ 
+    width:75%;
+    border:2px blue solid;
+    height:500px;
+}
+.pictures{
+    display:flex;
+}

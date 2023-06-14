@@ -1,0 +1,145 @@
+db.menu.insert([
+    {
+    "menu_id" : 1,
+    "menu_name" : "Coffee Latte",
+    "meal_type": "Drinks",
+    "store_id" : 1,
+    "description" : " Combination of Espresso shots and steamed milk.",
+    "price" : " 250",
+    "ingredients" :["Espresso", "Steamed Milk"],
+    "menu_image" : "https://i.ibb.co/09W0ry9/istockphoto-1035061554-170667a.webp"
+},
+{
+    "menu_id" : 1,
+    "menu_name" : "Cappucciano",
+    "meal_type": "Drinks",
+    "description" : "A Cappuccino is a popular espresso-based beverage that combines equal parts of espresso, steamed milk, and milk foam.",
+    "price" : "250",
+    "store_id" : 2,
+    "ingredients" :["Espresso","Steamed Milk","Milk Foam"],
+    "menu_image" : "https://i.ibb.co/zfP3YWk/cappucino.jpg"
+},
+{
+    "menu_id" : 2,
+    "menu_name" : "Mocha Frappucino ",
+    "meal_type": "Bestseller",
+    "store_id" : 1,
+    "description" : "Coffee and chocolate blended with milk and ice, topped with whipped cream",
+    "price" : "399",
+    "ingredients": ["Coffee", "Chocolate", "Milk", "Ice", "Whipped Cream"],
+    "menu_image" : "https://i.ibb.co/0Fn5LCS/Mocha-Frappucino.jpg"
+},
+{
+    "menu_id" : 3,
+    "menu_name" : "Mocha Frappucino ",
+    "meal_type": "Bestseller",
+    "store_id" : 3,
+    "description" : "Coffee and chocolate blended with milk and ice, topped with whipped cream",
+    "price" : "399",
+    "ingredients": ["Coffee", "Chocolate", "Milk", "Ice", "Whipped Cream"],
+    "menu_image" : "https://i.ibb.co/0Fn5LCS/Mocha-Frappucino.jpg"
+},
+{
+    "menu_id" : 4,
+    "meal_type": "Bestseller",
+    "menu_name" : "Green Tea Latte",
+    "store_id" : 2,
+    "description": "Matcha green tea with steamed milk",
+    "price" : "280",
+    "ingredients": ["Matcha Green Tea", "Steamed Milk"],
+    "menu_image" : "https://i.ibb.co/bmWFPCb/Green-Tea-Latte.jpg"
+},
+{
+    "menu_id" : 5,
+    "menu_name" : "Spinach & Feta Wrap",
+    "meal_type": "Ready to eat",
+    "store_id" : 3,
+    "description": "Espresso with vanilla-flavored syrup and steamed milk, topped with caramel drizzle",
+    "price" : "199",
+    "ingredients": ["Spinach", "lettuce", "Chicken"],
+    "menu_image" : "https://i.ibb.co/p05xqdj/Spinach-Feta-Wrap.jpg",
+
+},
+{
+
+    "menu_id" : 6,
+    "meal_type": "Food",
+    "menu_name" :"Choclate Croissants",
+    "store_id" : 4,
+    "description": "A croissant filled with rich chocolate",
+    "price" : "150",
+    "ingredients"  :["Butter", " Flour", "Water", "Yeast", "Sugar", "Salt",  "Egg", "Milk"],
+    "menu_image" : "https://i.ibb.co/1RRGCSW/Choclate-Croissant.jpg"
+},
+{
+    "menu_id" : 7,
+    "meal_type": "Bestseller",
+    "menu_name" : "Green Tea Latte",
+    "store_id" : 2,
+    "description": "Matcha green tea with steamed milk",
+    "price" : "280",
+    "ingredients": ["Matcha Green Tea", "Steamed Milk"],
+    "menu_image" : "https://i.ibb.co/bmWFPCb/Green-Tea-Latte.jpg"
+},
+{
+    "menu_id" : 8,
+    "menu_name" : "Double Choclate Chip Frappuccino",
+    "meal_type": "Bestseller",
+    "store_id" : 1,
+    "description" : "Rich and creamy chocolate base with the addition of chocolate chips for extra texture and flavor and is topped with whipped cream ",
+    "price" : "399",
+    "ingredients" :["Frappuccino Base","Choclate Sauce","Choclate Chips","Whipped Cream"],
+    "menu_image" : "https://i.ibb.co/nQSvWtP/Double-Choclate-Chip-Frappuccino.jpg "
+},
+{
+    "menu_id" : 9,
+    "menu_name" : "Spinach & Feta Wrap",
+    "meal_type": "Ready to eat",
+    "store_id" : 4,
+    "description": "Espresso with vanilla-flavored syrup and steamed milk, topped with caramel drizzle",
+    "price" : "199",
+    "ingredients": ["Spinach", "lettuce", "Chicken"],
+    "menu_image" : "https://i.ibb.co/p05xqdj/Spinach-Feta-Wrap.jpg",
+
+},
+{
+    "menu_id" : 10,
+    "menu_name" : "Double Choclate Chip Frappuccino",
+    "meal_type": "Bestseller",
+    "store_id" : 1,
+    "description" : "Rich and creamy chocolate base with the addition of chocolate chips for extra texture and flavor and is topped with whipped cream ",
+    "price" : "399",
+    "ingredients" :["Frappuccino Base","Choclate Sauce","Choclate Chips","Whipped Cream"],
+    "menu_image" : "https://i.ibb.co/nQSvWtP/Double-Choclate-Chip-Frappuccino.jpg "
+},
+{
+    "menu_id" : 11,
+    "meal_type": "Food",
+    "menu_name" :"Everything Bagel",
+    "store_id" : 4,
+    "description": "A flavorful bagel topped with a mix of seeds and spices",
+    "price" : "150",
+    "ingredients"  :[" Flour", "Water Bath", "Yeast", "Sugar", "Salt",  "Egg", "Milk"],
+    "menu_image" : "https://i.ibb.co/JChJSBY/bagel.jpg"
+},
+{
+    "menu_id" : 12,
+    "meal_type": "Food",
+    "menu_name" :"Everything Bagel",
+    "store_id" : 1,
+    "description": "A flavorful bagel topped with a mix of seeds and spices",
+    "price" : "150",
+    "ingredients"  :[" Flour", "Water Bath", "Yeast", "Sugar", "Salt",  "Egg", "Milk"],
+    "menu_image" : "https://i.ibb.co/JChJSBY/bagel.jpg"
+},
+{
+"menu_id" : 14,
+"menu_name" : "Mocha Frappucino ",
+"meal_type": "Bestseller",
+"store_id" : 2,
+"description" : "Coffee and chocolate blended with milk and ice, topped with whipped cream",
+"price" : "399",
+"ingredients": ["Coffee", "Chocolate", "Milk", "Ice", "Whipped Cream"],
+"menu_image" : "https://i.ibb.co/0Fn5LCS/Mocha-Frappucino.jpg"
+}
+])

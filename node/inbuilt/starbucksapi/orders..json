@@ -1,0 +1,28 @@
+db.orders.insert([
+{
+    "orderId":1,
+    "name": "kavitha",
+    "email": "kavitha@gmail.com",
+    "address": "Hno 23,Sector 1",
+    "phone": 9618736478,
+    "cost": 499,
+    "menu_id": [
+        3,
+        5,
+        7
+    ]
+},
+{
+    "orderId":2,
+    "name": "mahi",
+    "email": "mahi@gmail.com",
+    "address": "Hno 23,Sector 1",
+    "phone": 9618836478,
+    "cost": 545,
+    "menu_id": [
+        1,
+        4,
+        5
+    ]
+},
+])

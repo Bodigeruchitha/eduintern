@@ -1,0 +1,53 @@
+
+.top-container{
+    height:100px;
+    width:200px;
+    background-color: red;
+    padding:20px;
+    border:10px;
+    position: absolute;
+
+}
+.middle-container{
+    height:100px;
+    width:200px;
+    background-color: blue ;
+    margin-left:100px;
+    padding:10px;
+    border:solid 20px;
+
+
+}
+.bottom-container{
+    height:100px;
+    width: 200px;
+    background-color: purple;
+    margin-left:200px;
+    padding:10px;
+    border:10px;
+    border:solid 10px;
+    border-color: red;
+
+
+
+
+}
+display="none"
+visibility="hidden"
+overflow:scroll we can sroll the text and over flw hidden hides the text , we have to give height when we use overflow scroll
+we can change the flow of the HTML by changing the position element 
+regardless of  the fonts every one has  we can use font embedded for every screen
+ we can use prefered font size as one rem
+ float : the txt  moves to left and now wraped around the image
+ if we have to add no of items regardlessly to the page,  u should not give height to the page to takes  default size according to the content 
+ float:right to give the text and image space margin 
+ line height gives space between the text 
+ position: relative  it changes relative to the normal flow of html and postion absolute changes relative to the parent(top left corner)of the page  
+ display :block means we are changing  the element as block that means  side, float also works 
+image url imgbb
+to keep the text  in centre  use
+margin-top
+margin-left
+position 
+
+..haha section ask bubllu 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form validation </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <div class="container ">
+   <div class="panel panel-primary">
+    <div class="panel panel-heading">Feedback about me</div>
+    <form>
+    <div class="panel-body">
+    <div  class="form-group" id="fdiv">
+        <label for="fname"class="control-label">Your Name</label>
+        <input name="fname" class="form-control" id="fname"
+         onblur="validateFname()">
+         <p id="fout"></p>
+    </div>
+   </div>
+    <div class="panel-body">
+    <div  class="form-group" id="fdiv">
+        <label for="text"class="control-label">Describe me</label>
+        <input name="text" class="form-control" id="text" minlength="10"/>
+        <p id="dout"></p>
+    </div>
+   </div>
+   <div class="panel-body">
+    <div  class="form-group" id="fdiv">
+        <label for="pwd"class="control-label">Enter Password</label>
+        <input name="pwd" class="form-control" id="pwd"type="password" minlength="8"/>
+        <p id="pout"></p>
+    </div>
+</div>
+   <div class="panel-body">
+    <div  class="form-group" id="fdiv" >
+        <label for="rate"lass="control-label">Review</label>
+        <input name="fname" class="form-control" id="rate">
+
+        <p id="rout"></p>
+    </div>
+   </div>
+   <button type="submit">submit</button>
+</form>
+</div>
+</div>
+</body>
+</html> 

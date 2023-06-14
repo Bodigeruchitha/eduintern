@@ -1,0 +1,66 @@
+  // Starbucks//
+  
+  page 1
+// wrt to location  //
+http://localhost:9678/location
+
+ //wrt to menu//
+ http://localhost:9678/menustarbucks
+
+
+  // wrt to mealtype//
+  http://localhost:9678/mealtype
+page 2 
+
+ // detiails of storeid 
+http://localhost:9678/Storeid 
+
+// details of menu (wrt to store id)
+http://localhost:9678/menu/4
+
+//  wrt to  mealtype + menu
+http://localhost:9678/filter/Drinks?menuName=Cappucciano
+
+// wrt to  mealtype +price 
+http://localhost:9678/filter/Drinks?lcost=100&hcost=250
+
+// wrt to  mealtype +ingrediants 
+http://localhost:9678/filter/Food?ingredients=Espresso
+
+
+
+page 3
+// wrt storeid 
+http://localhost:9678/Storeid
+
+
+// details of menu of store id 
+
+
+page 4
+
+// details of menu selected
+ {"id":[1,4,2]}
+http://localhost:9678/menudetails
+
+
+//Place Order
+http://localhost:9678/placeOrders
+
+page 5
+// List of all the orders
+http://localhost:9678/orders?email=mahi@gmail.com
+http://localhost:9678/orders
+
+
+// Update orders details
+http://localhost:9678/updateOrder
+
+
+// Delete Orders
+
+
+
+
+
+

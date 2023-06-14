@@ -1,0 +1,63 @@
+db.mealtype.insert([
+   {
+    "mealtype_id": 1,
+    "mealtype": "Bestseller",
+    "mealname": "Classic Oatmeal",
+    "price":"230",
+    "meal_image":"https://i.ibb.co/sCPYhmt/Classic-Oatmeal.jpg"
+   },
+   {
+    "mealtype_id": 1,
+    "mealtype": "Bestseller",
+    "mealname": "Bacon, Gouda & Egg Sandwichl",
+    "price":"230",
+    "meal_image": "https://i.ibb.co/m0ZLs2V/bagel-egg.jpg"
+   },
+   {
+    "mealtype_id": 1,
+    "mealtype": "Bestseller",
+    "mealname": "Oatmeal salad",
+    "price":"230",
+    "meal_image": "https://i.ibb.co/HDjq57Y/oatmeal-salad.jpg"
+   },
+   {
+    "mealtype_id": 2,
+    "mealtype": "Food",
+    "mealname": "Ham & Swiss Panini",
+    "price":"230",
+    "meal_image": "https://i.ibb.co/qrP6P0L/Ham-Swiss-Panin.jpg"
+   },
+   {
+    "mealtype_id": 4,
+    "mealtype": "ready to eat ",
+    "mealname": "Spinach & Feta Wrap",
+    "price":"199",
+    "meal_image": "https://i.ibb.co/p05xqdj/Spinach-Feta-Wrap.jpg"
+   },{
+    "mealtype_id": 2,
+    "mealtype": "Food",
+    "mealname": "Chicken Caprese Panini",
+    "price":"199",
+    "meal_image": "https://i.ibb.co/XyHF2MD/Chicken-Caprese-Panini.jpg"
+   },{
+    "mealtype_id": 3,
+    "mealtype": "Drinks",
+    "mealname": "Iced Green Tea Latte",
+    "price":"139",
+    "meal_image": "https://i.ibb.co/b7b6T34/Iced-Green-Tea-Latte.jpg"
+   },{
+    "mealtype_id": 3,
+    "mealtype": "Drinks",
+    "mealname": " Choclate Cappuccino",
+    "price":"139",
+    "meal_image": "https://i.ibb.co/zfP3YWk/cappucino.jpg"
+   },
+   {
+    "mealtype_id": 3,
+    "mealtype": "Drinks",
+    "mealname": "Caffè Latte",
+    "price":"139",
+    "meal_image": "https://i.ibb.co/09W0ry9/istockphoto-1035061554-170667a.webp"
+   }
+])
+

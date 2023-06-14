@@ -1,0 +1,280 @@
+// java script 
+es5 and es6 are trending one 
+and 3 data types are there they are 
+1.string  2. number 3.boolean
+//
+in es5 var is the keyword to declare  variable  
+ex: var a="hii"
+var b=10
+var c=true 
+type of (a)=string 
+type of (b)=number 
+type of (c)=boolean
+modulas of smller to larger is always smaller
+only plus will work i steing rem will give you nan(not a number)
+string+number =string 
+number+string =string 
+string+string = string 
+number+number =number
+// if both the sides of the operator is pure numeric valuues then (-,* ) will work 
+// boolean 
+ true =1 
+ false =0
+  true + true = 2 
+  true + false = 1
+  EXAMPLES:
+  0+10
+20
+"10"+10
+'1010'
+"10A"-9
+NaN
+           //DAY 2//
+new thing in es6 is let and const // interview 
+in var we can redeclare and reassign the variable //  interview
+in let we cannot redeclare but  reassign the variable
+in const we cannot redeclare and reassign the variable
+in es5 we use + to concatinate
+but in es6 we use `${}` instead of +
+        //day 3//
+if (a==10){
+    console.log(`$a is equal to 10`)
+}else{
+  console.log(`$a is not equal to 10`)
+}
+var a=5;
+if (a%10){
+    console.log(`$a is divisible to 10`)
+}else{
+    console.log(`$a is not divisible to 10`)
+}
+$a is divisible to 10
+var a=7;
+if(a%10){
+  console.log(`${a} is divisible by 10`)
+}elseif(a%7){
+  console.log(`${a} is divisible by 7`)
+}else{
+  console.log(`${a} is not divisible by 10`)
+}
+var a=10;
+if(a<0){  
+  console.log(`${a} is positive`)
+}else{
+  console.log(`${a} is negative`)
+}
+//ternary operator(single line ifelse )
+var a=10;
+a=10?"true":"false"
+'true'
+var a = 5;
+a>=5 ? "true":"false"
+var a = 5;
+a>=5 ? "true":"false"
+'true'
+var a = 10;
+a>=5 ? "true":"false"
+'true'
+let a = 5;
+a>=5 ? "true":"false"
+VM74:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+a = 1=;
+a>=5 ? "true":"false"
+  //function//
+function sub(a,b){
+  return a+b
+}
+undefined
+sub(1,3)
+4
+function sub(a,b){
+  return a-b
+}
+undefined
+function myfunc(city,hyd){
+let out=`the name of the ${city} is ${hyderabad}`
+return out
+}
+function myfun(city,state){
+    let out = `Form city ${city} abd State ${state}`
+    return out
+}
+document.getElementsByTagName('h2')[1].innerText
+ ///dom///
+'Your Favourite'
+document.getElementsByTagName('h2')[1].innerText = my favourite
+
+VM1062:1 Uncaught SyntaxError: Unexpected identifier 'favourite'
+    at <anonymous>:1:10
+(anonymous) @ VM775:1
+document.getElementsByTagName('h2')[1].innerText="my favourite"
+'my favourite'
+document.getElementsByClassName('measurements')[2].innerHTML
+'hgvv'
+document.getElementsByClassName('measurements')[2].innerHTML="<h1>hi</h1>"
+'<h1>hi</h1>
+
+
+ syntax  of function  in js 
+ function functionname (para 1,para 2)
+ {
+// fucntionbody
+console.log(para 1+ para 2);
+ }
+
+
+//string//
+ slice ()
+ trim()
+ replace()
+ replaceAll()
+ join()
+ split()
+
+
+// math op//
+Math.random()
+Math.floor() works in lesser side(left side)
+Math.ceil() works in greater side(right side)
+Math.random() (ex 10.4 is 10 and 10.6 is 11)  
+
+// array//
+push()
+Pop()
+shift()
+unshift()
+   // loops//
+for (initialization; condition; increment) {
+    // block of code to be executed
+}
+
+/// map filter 
+ when u write a function inside the fucntion that is call back       ((data ))
+ arrow function (())=>{}
+syntax array.map((currentValue, index, array) => {
+  // code block to execute on each element
+}
+// object 
+In JavaScript, an object is a collection of key-value pairs,
+syntax  
+// for in  is particular for objects 
+// for of is particular  for array 
+The function used to create an object is called a constructor function, and it is responsible for defining the properties and methods of the object.
+The constructor function is defined using the "function" keyword and is usually named with a capital letter to indicate that it is a constructor function. Here's an example:
+
+javascript
+Copy code
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  this.greet = function() {
+    console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+  }
+}
+var john = new Person("John", 30);
+john.greet(); // output: "Hello, my name is John and I'm 30 years old."
+/// classs
+//////// c classes and objects in js ///
+
+//clousers 
+variables has the function scope that means  can access the variables insise the function also  in for loop
+let has the block scope that means cannot be accessed the variables insise the function // fpr ref check practice\
+//// hoisting///
+ u can even call the function even before declaring it ex: var a;
+ var b;
+ function add(a,b){
+     return a+b
+ }      
+ a = 10;
+ b = 20;
+ console.log(add(a,b));
+ output: 30 
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBtxSXNLfVJqfukP2Vkb_InKrs8OUcp0Jhww&usqp=CAU" alt="coupon">
+<html>
+    <head>
+        <link href="home.css" rel="stylesheet" type="text/css"/>
+        <script src="home.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <center>
+                <h1>Coupons Pages</h1>
+            </center>
+        </div>
+
+        <div id="coupon">
+            <button onClick="closeCoupon()">&times;</butto
+        </div>
+        <script>
+            window.onload = loadCoupon()
+        </script>
+    </body>
+</html>
+
+
+ //to install anything use npm i packagename 
+ // to run nodemon : dev : nodemon run dev 
+ to start 
+
+
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/JChJSBY/bagel.jpg" alt="bagel" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/fHDdMNK/Caramel-Macchiato.jpg" alt="Caramel-Macchiato" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/1RRGCSW/Choclate-Croissant.jpg" alt="Choclate-Croissant" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/nQSvWtP/Double-Choclate-Chip-Frappuccino.jpg" alt="Double-Choclate-Chip-Frappuccino" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/bmWFPCb/Green-Tea-Latte.jpg" alt="Green-Tea-Latte" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/09W0ry9/istockphoto-1035061554-170667a.webp" alt="istockphoto-1035061554-170667a" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/0Fn5LCS/Mocha-Frappucino.jpg" alt="Mocha-Frappucino" border="0"></a>
+
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+> use eduinternfeb
+switched to db eduinternfeb
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+> use eduinternfeb
+switched to db eduinternfeb
+> db.user.insert({"name":"ruchitha"})
+WriteResult({ "nInserted" : 1 })
+> show dbs
+admin         0.000GB
+config        0.000GB
+eduinternfeb  0.000GB
+local         0.000GB
+> user eduinternfeb
+uncaught exception: SyntaxError: unexpected token: identifier :
+@(shell):1:5
+> use eduinternfeb
+switched to db eduinternfeb
+> show collections
+user
+> db.user.find()
+{ "_id" : ObjectId("6482e8a4a8289d9a77cc10fa"), "name" : "ruchitha" }
+> db.user.insert({"user":"lasya")}
+uncaught exception: SyntaxError: missing } after property list :
+@(shell):1:30
+> db.user.insert({"user":"lasya"})
+WriteResult({ "nInserted" : 1 })
+> db.user.find()
+{ "_id" : ObjectId("6482e8a4a8289d9a77cc10fa"), "name" : "ruchitha" }
+{ "_id" : ObjectId("6482e9bca8289d9a77cc10fb"), "user" : "lasya" }
+
+  db.user.insert(
+    [
+         {"name":"likitha","city":"hyderabad"},
+         {"name":"rohit",city":"sec"}
+    ]
+  )
+
+
+  
+db.user.insert(
+  [
+      {"name":"Ankita","city":"Delhi"},
+      {"name":"Rohit","city":"Paris"}
+  ]
+)
+  

@@ -1,0 +1,33 @@
+body{
+    background-color:black
+}
+.container{
+    text-align:center;
+    padding: 200px;
+}
+
+.button input{
+    border-radius: 5px;
+    height: 42px;
+    width: 65px;
+    cursor:pointer;   
+    /* background-color: black; */
+ }
+.display input{
+    width: 270px;
+    padding: 12px;
+    text-align: right;
+    margin: 10px;
+    font-size:30px;
+    color:black;
+    box-shadow: 8   ;
+}
+.colour {
+   color: red
+}
+.equal{
+    color: blue;
+}
+.ash{
+    color:gray
+}
